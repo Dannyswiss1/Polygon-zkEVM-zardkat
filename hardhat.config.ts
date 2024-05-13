@@ -17,12 +17,12 @@ const config: HardhatUserConfig = {
   networks: {
     
     sepolia: {
-      url: "https://eth-sepolia.g.alchemy.com/v2/5K_armLcsRI4kmGTpXZqluR3maiHhAE7",
-      accounts: [`3eab3c73ad6958d25a9e1baf3ac5a77340b4fea3eae8944c652973757fe21029`],
+      url: "",
+      accounts: [``],
     },
   },
   etherscan: {
-    apiKey: "CPWBS6HKUUQ6MJXHSFYIUJ4RET93N35HEG",
+    apiKey: "",
   },
   solidity: {
     compilers: [
